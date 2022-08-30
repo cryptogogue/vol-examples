@@ -15,20 +15,20 @@ NOTE: For VOLWAL to properly discover local nodes, you should update your /etc/h
 
 Deploys a single volition node, dozzle and VOLWAL.
 
-http://volition-9090:9090 - the volition node
-http://localhost - VOLWAL
-http://localhost:8080 - dozzle
+- http://volition-9090:9090 - the volition node
+- http://localhost - VOLWAL
+- http://localhost:8080 - dozzle
 
 ### volition-x4
 
 Deploys a network of four volition nodes, dozzle and VOLWAL.
 
-http://volition-9090:9090 - a volition node
-http://volition-9091:9091 - a volition node
-http://volition-9092:9092 - a volition node
-http://volition-9093:9093 - a volition node
-http://localhost - VOLWAL
-http://localhost:8080 - dozzle
+- http://volition-9090:9090 - a volition node
+- http://volition-9091:9091 - a volition node
+- http://volition-9092:9092 - a volition node
+- http://volition-9093:9093 - a volition node
+- http://localhost - VOLWAL
+- http://localhost:8080 - dozzle
 
 ### volwal
 
