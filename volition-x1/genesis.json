@@ -22,7 +22,7 @@
                             "type" : "EC_PEM"
                         },
                         "minerInfo": {
-                            "url" :             "http://127.0.0.1:9090/",
+                            "url" :             "http://volition-9090:9090/",
                             "key" : {
                                 "publicKey" : "-----BEGIN RSA PUBLIC KEY-----\nMIICCgKCAgEAuMpcfQ3yIVFB1qB+3K\/d5nNyJCT1xqz+05luZSdXr0MLqszP52v8\n1NsS+9VemmPwvyvMjE+00hLTiS1RqysjPQxY8+nndotFeWjg1IJEOylUPDLtAWPY\nBF2h3KfniI675mEzJqTMHM9BnPnnXKjhRdxG6bBWkRmtb9uVUevmg5Mgu07Ncg\/A\ndtJHDS3Djc+b5hfXGU5DcO8NCSzeBHvwuQyEPx9OFkF9q1In9cOrs4OR2yaaalLY\nc9F+nMZxnv2PTeY18iYV03WUgzU35eafYTyanTSZSPKDpx3\/6JcIwt6u5gmCuQHU\nhlASmDXr1znVG5vVW4n5HcyNX+jfV5QIjnNx0q3edR6ii59nmxsqf7WwMDpMzuKM\nvt42fwrVdjO3fEK3gXOBBc+i84lGx7SrL44NHuUHcWv72UfCKCKNr+t\/HNUVmWN+\nqx2kOUGHcrXWWZYIybjjgrt7I4CQiSr1logrHh8SVM\/9XTBJEOuKTwBdpAwLdvlk\n90kCwVX7nK2s9YGx7WytZ92n3bNXkC37fg9WIPxsKBzitgZzxdde4Mp9s9SoLWII\n3K0Eowg7Ov7z099BHxk\/CKI\/zbZwy9liGwkhAykR\/8iViijmsqGTqVTsH9bYD8br\nCkBNYuZrJYjvIT1mTGn1roUQxR4kZmIWX5jpWLxanK1DFmUnKJlUOn0CAwEAAQ==\n-----END RSA PUBLIC KEY-----\n",
                                 "type" : "RSA_PEM"
