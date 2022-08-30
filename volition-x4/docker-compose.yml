@@ -1,0 +1,56 @@
+version: "3.7"
+
+services:
+
+    volition-dozzle:
+        container_name: volition-dozzle
+        image: amir20/dozzle:latest
+        ports:
+            - 127.0.0.1:8080:8080
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+        environment:
+            DOZZLE_LEVEL: info
+            DOZZLE_TAILSIZE: 300
+
+    volition-9090:
+        image: cryptogogue/volition:open-beta
+        container_name: volition-9090
+        ports:
+            - 127.0.0.1:9090:9090
+        volumes:
+            - ./volume-volition-9090:/var/lib/volition
+            - ./genesis.json:/etc/volition/genesis.json
+
+    volition-9091:
+        image: cryptogogue/volition:open-beta
+        container_name: volition-9091
+        ports:
+            - 127.0.0.1:9091:9091
+        volumes:
+            - ./volume-volition-9091:/var/lib/volition
+            - ./genesis.json:/etc/volition/genesis.json
+
+    volition-9092:
+        image: cryptogogue/volition:open-beta
+        container_name: volition-9092
+        ports:
+            - 127.0.0.1:9092:9092
+        volumes:
+            - ./volume-volition-9092:/var/lib/volition
+            - ./genesis.json:/etc/volition/genesis.json
+
+    volition-9093:
+        image: cryptogogue/volition:open-beta
+        container_name: volition-9093
+        ports:
+            - 127.0.0.1:9093:9093
+        volumes:
+            - ./volume-volition-9093:/var/lib/volition
+            - ./genesis.json:/etc/volition/genesis.json
+
+    volition-volwal:
+        container_name: volition-volwal
+        image: cryptogogue/volwal:open-beta
+        ports:
+            - 127.0.0.1:80:80
